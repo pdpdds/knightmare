@@ -45,12 +45,12 @@
     <_ProjectFileVersion>16.0.30523.133</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>.\Release\</OutDir>
+    <OutDir>$(ProjectDir)../Bin/</OutDir>
     <IntDir>.\Release\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir>$(ProjectDir)../Bin/</OutDir>
     <IntDir>$(SolutionDir)$(ProjectName)\Intermediate\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
