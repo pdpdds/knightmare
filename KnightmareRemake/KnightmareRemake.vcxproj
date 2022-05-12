@@ -91,6 +91,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;dxerr8.lib;libcmt.lib;winmm.lib;odbc32.lib;odbccp32.lib;ddraw.lib;dxguid.lib;dinput8.lib;dsound.lib;uuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -127,7 +128,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>libcmt.lib;winmm.lib;odbc32.lib;odbccp32.lib;ddraw.lib;dxguid.lib;dinput8.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;dxerr8.lib;libcmt.lib;winmm.lib;odbc32.lib;odbccp32.lib;ddraw.lib;dxguid.lib;dinput8.lib;dsound.lib;uuid.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../DirectMusic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
