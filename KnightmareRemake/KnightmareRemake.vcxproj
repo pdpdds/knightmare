@@ -83,7 +83,7 @@
       <Culture>0x0412</Culture>
     </ResourceCompile>
     <Link>
-      <OutputFile>.\Release/Socoban.exe</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <AdditionalLibraryDirectories>../DirectMusic;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <ProgramDatabaseFile>.\Release/Socoban.pdb</ProgramDatabaseFile>
